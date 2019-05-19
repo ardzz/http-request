@@ -108,9 +108,7 @@ class Main implements interfaceHttpRequest{
      */
     function setURL(){
         if(isset($this->parameter)) {
-            //$parameter = $this->parameter;
             if (is_array($this->parameter)) {
-                $parameter = urldecode(http_build_query($this->parameter));
                 return $this->url . "?" . urldecode(http_build_query($this->parameter));
             }else{
                 return $this->url . "?" . $this->parameter;
