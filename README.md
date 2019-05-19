@@ -14,3 +14,10 @@
 - [x] Easy to use
 - [x] Tidak perlu lagi menulis kode *cURL* berbaris-baris
 - [ ] Dokumentasi penggunaan, dokumentasi akan dibuat di [Wiki Repo](https://github.com/ardzz/http-request/wiki)
+
+## Examples
+Semua contoh penggunaan ada [disini](https://github.com/ardzz/http-request/blob/master/examples/)
+
+# Terms and conditions
+- Jangan digunakan untuk keperluan (spam, botting dan hal lain yang dapat merugikan orang lain)
+- Saya tidak akan membantu seseorang menggunakan module ini untuk keperluan (spam, botting dan hal lain yang dapat merugikan orang lain)
