@@ -303,12 +303,7 @@ class Main implements interfaceHttpRequest{
 
         curl_setopt($ch, CURLOPT_HEADER, 1);
 
-        if (isset($this->cookies, $this->user_agent)) {
-            $headers = [
-                "Cookies: {$this->cookies}",
-                "User-Agent: {$this->user_agent}",
-            ];
-        }elseif(isset($this->headers)){
+        if(isset($this->headers)){
             $headers = $this->headers;
         }
         else{
