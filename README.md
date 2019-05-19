@@ -6,6 +6,11 @@
 
 [*Http-Request*](https://github.com/ardzz/http-request) adalah *module* **PHP** yang saya buat untuk memudahkan keperluan *cURL* pada **PHP**
 
+## Installation
+**Composer**
+```bash
+composer require ardzz/http-request:dev-master && composer dump-autoload -o
+```
 ## Requirements
 * PHP 7.\*.\*
 * PHP cURL
