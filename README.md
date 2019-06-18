@@ -24,5 +24,5 @@ composer require ardzz/http-request:dev-master && composer dump-autoload -o
 Semua contoh penggunaan ada [disini](https://github.com/ardzz/http-request/blob/master/examples/)
 
 # Terms and conditions
-- Jangan digunakan untuk keperluan (spam, botting dan hal lain yang dapat merugikan orang lain)
-- Saya tidak akan membantu seseorang menggunakan module ini untuk keperluan (spam, botting dan hal lain yang dapat merugikan orang lain)
+- Jangan digunakan untuk keperluan (spam dan hal lain yang dapat merugikan orang lain)
+- Saya tidak akan membantu seseorang menggunakan module ini untuk keperluan (spam dan hal lain yang dapat merugikan orang lain)
