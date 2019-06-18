@@ -241,6 +241,18 @@ class Main implements interfaceHttpRequest{
     function getTotalTime(){
         return (($this->get["success"]) ? $this->get["response"]["total_time"] : FALSE);
     }
+	
+    /**
+     * @return string User-agent secara acak
+     */
+
+    function randomAgent(){
+        if (!isset($this->headers) || !is_array($this->headers)) {
+            return false;
+        }
+        $this->headers[] = "Uset-Agent: ".\HttpRequest\UAgent::random();
+        return $this;
+    }
 
     /**
      * Mendefisinikan object request sebagai GET
